@@ -102,6 +102,12 @@ main {
   font-size: 1.2em;
   color: white;
   background-color: #c0df34;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .card_right {
