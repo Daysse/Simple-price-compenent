@@ -7,4 +7,123 @@ body{
     padding: 0;
     font-family: 'Karla', sans-serif; 
     max-width: 1440px;
+    background-color: $Light-Gray;
 }
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 50px;
+    width: 700px;
+    height: 520px;
+    
+}
+
+//CARD HEADER
+
+
+.card_header{
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    grid-column: 1/3;
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.card_header h2{
+    color: $Bright-Yellow;
+    font-size: 1.2em;
+}
+
+.card_header p{
+    color: $Grayish-Blue;
+    word-spacing: 2px;
+    padding-right: 100px;
+    line-height: 1.4em;
+}
+
+.title_header{
+    color: $Cyan;
+}
+
+//CARD_LEFT
+
+.card_left{
+    color: white;
+    background-color: $Cyan;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.card_left h2{
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-bottom: -10px;
+    font-weight: 400px bold;
+    position: relative;
+}
+
+.price{
+    display: flex;
+    padding-left: 40px;
+    margin-bottom: -30px;
+    
+}
+
+.price h1{
+    font-size: 2.2em;
+}
+
+.price p{
+    color: $Light-Gray;
+    font-weight: lighter;
+    padding-left: 12px;
+    align-self: center;
+}
+
+.card_left_footer{
+    padding-left: 40px;
+}
+
+.button{
+    margin-top: 40px;
+    padding-left: 40px;
+}
+.btn{
+    
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Karla';
+    font-weight: 600;
+    font-size: 1.2em;
+    color: white;
+    background-color: $Bright-Yellow;
+
+}
+
+//CARD_RIGHT
+
+.card_right{
+    background-color: hsla(179, 62%, 43%, 0.705);;
+    border-bottom-right-radius: 10px;
+    height: 300px;
+}
+
+.info h1{
+    color: white;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+.info p{
+    color: $Light-Gray;
+    padding-left: 40px;
+    padding-right: 100px;
+    line-height: 1.5em;
+    word-spacing: 2px;
+}
+
