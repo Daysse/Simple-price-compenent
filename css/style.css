@@ -129,4 +129,31 @@ a {
   line-height: 1.5em;
   word-spacing: 2px;
 }
+
+@media screen and (max-width: 375px) {
+  body {
+    margin: -50px;
+    padding: -50px;
+    width: 100%;
+  }
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 375px;
+        grid-template-columns: 375px;
+    -ms-grid-rows: 300px 300px 300px;
+        grid-template-rows: 300px 300px 300px;
+    width: 375px;
+  }
+  .card_right {
+    -ms-grid-row: 3;
+    grid-row: 3/3;
+    border-bottom-left-radius: 10px;
+    width: 375px;
+  }
+  .card_left {
+    border-radius: 1px;
+    width: 375px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

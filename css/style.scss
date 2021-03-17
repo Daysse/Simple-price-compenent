@@ -136,3 +136,30 @@ a{
     word-spacing: 2px;
 }
 
+@media screen and (max-width:375px){
+    body{
+        margin: -50px;
+        padding: -50px;
+        width: 100%;
+        
+    }
+    main{
+       display: grid;
+       grid-template-columns: 375px;
+       grid-template-rows: 300px 300px 300px;
+       width: 375px;
+       
+       
+        
+    }
+    .card_right{
+        grid-row: 3/3;
+        border-bottom-left-radius: 10px;
+        width: 375px;
+    }
+    .card_left{
+        border-radius: 1px;
+        width: 375px;
+        
+    }
+}
